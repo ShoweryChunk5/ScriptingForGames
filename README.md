@@ -1,1 +1,1 @@
-# ScriptingForGames
+I am clicky Stew. I enjoy when I hear the sound of electronic soap dispensers. It fills me with joy when people are clean.
