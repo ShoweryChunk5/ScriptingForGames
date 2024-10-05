@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class TransformController : MonoBehaviour
 {
-    private void Update() 
+    public void Update() 
     {
         // Move the target GameObject
         var x = Mathf.PingPong(Time.time, 3);
@@ -10,6 +10,6 @@ public class TransformController : MonoBehaviour
         transform.position = p;
 
         // Rotate the target GameObject
-        tranform.Rotate(new Vector3(0, 30, 0) * Time.deltaTime);
+        transform.Rotate(new Vector3(0, 0, 30) * Time.deltaTime);
     }
 }
